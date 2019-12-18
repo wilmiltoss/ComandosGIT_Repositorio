@@ -1,4 +1,5 @@
 1-ACCEDEMOS A LA CARPETA QUE QUEREMOS PUBLICAR
+
 C:\Users\wmiltos>cd..
 
 C:\Users>cd..
@@ -6,14 +7,17 @@ C:\Users>cd..
 C:\>cd \xampp\htdocs\facturacion
 
 2-VERIFICAMOS EL ESTADO
+
 C:\xampp\htdocs\facturacion>git status
 fatal: not a git repository (or any of the parent directories): .git
 
 3-INICIALIZAMOS GIT EN LA CARPETA
+
 C:\xampp\htdocs\facturacion>git init
 Initialized empty Git repository in C:/xampp/htdocs/facturacion/.git/
 
 4-ACTIVAMOS LA CARPETA REMOTA
+
 C:\xampp\htdocs\facturacion>git add -A
 warning: LF will be replaced by CRLF in sistema/fonts/GothamBold.css.
 The file will have its original line endings in your working directory
@@ -27,6 +31,7 @@ warning: LF will be replaced by CRLF in sistema/js/jquery.min.js.
 The file will have its original line endings in your working directory
 
 5-VERIFICAMOS NUEVAMENTE EL STATUS
+
 C:\xampp\htdocs\facturacion>git status
 On branch master
 
@@ -92,6 +97,7 @@ Changes to be committed:
         new file:   sistema/salir.php
 
 6-CARGAMOS LA VERSION DEL PROYECTO
+
 C:\xampp\htdocs\facturacion>git commit -m "version 1"
 [master (root-commit) c861a9b] version 1
  56 files changed, 5984 insertions(+)
@@ -153,9 +159,11 @@ C:\xampp\htdocs\facturacion>git commit -m "version 1"
  create mode 100644 sistema/salir.php
 
 7-PUBLICAMOS LA CARPETA EN LA DIRECCION CREADA EN EL GIT
+
 C:\xampp\htdocs\facturacion>git remote add origin https://github.com/wilmiltoss/FacturacionPHP.git
 
 8-ACTUALIZAMOS LA CARPETA PUBLICADA
+
 C:\xampp\htdocs\facturacion>git push origin master
 Enumerating objects: 64, done.
 Counting objects: 100% (64/64), done.
