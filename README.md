@@ -155,6 +155,7 @@ C:\xampp\htdocs\facturacion>git commit -m "version 1"
 7-PUBLICAMOS LA CARPETA EN LA DIRECCION CREADA EN EL GIT
 C:\xampp\htdocs\facturacion>git remote add origin https://github.com/wilmiltoss/FacturacionPHP.git
 
+8-ACTUALIZAMOS LA CARPETA PUBLICADA
 C:\xampp\htdocs\facturacion>git push origin master
 Enumerating objects: 64, done.
 Counting objects: 100% (64/64), done.
